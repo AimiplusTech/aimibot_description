@@ -1,5 +1,5 @@
 <package>
-  <name>aimibot</name>
+  <name>aimibot_description</name>
   <version>1.0.0</version>
   <description>
     <p>URDF Description package for aimibot</p>

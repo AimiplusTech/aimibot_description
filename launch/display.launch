@@ -6,7 +6,7 @@
     default="True" />
   <param
     name="robot_description"
-    textfile="$(find aimibot)/urdf/aimibot.urdf" />
+    textfile="$(find aimibot_description)/urdf/aimibot.urdf" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,5 +22,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find aimibot)/rviz/rviz-config.rviz" />
+    args="-d $(find aimibot_description)/rviz/rviz-config.rviz" />
 </launch>
